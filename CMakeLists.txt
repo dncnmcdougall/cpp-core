@@ -11,3 +11,4 @@ add_library(cpp-core src/logging.cpp)
 
 target_include_directories(cpp-core PUBLIC src)
 
+install(TARGETS cpp-core LIBRARY)
